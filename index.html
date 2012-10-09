@@ -5,7 +5,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id="page-wrap"></div>
+    <div id="page-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="item"><img src="http://placehold.it/200x200">
+              <div class="caption">
+                <h4><a href="#">Lorem ipsum</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum orci lobortis enim dignissim placerat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="item"><img src="http://placehold.it/200x200">
+              <div class="caption">
+                <h4><a href="#">Lorem ipsum</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum orci lobortis enim dignissim placerat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="item"><img src="http://placehold.it/200x200">
+              <div class="caption">
+                <h4><a href="#">Lorem ipsum</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum orci lobortis enim dignissim placerat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="item"><img src="http://placehold.it/200x200">
+              <div class="caption">
+                <h4><a href="#">Lorem ipsum</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum orci lobortis enim dignissim placerat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span3">
+            <div class="item"></div>
+          </div>
+          <div class="span3">
+            <div class="item"></div>
+          </div>
+          <div class="span3">
+            <div class="item"></div>
+          </div>
+          <div class="span3">
+            <div class="item"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('.item').hover(function() {
+        $('.caption', this).slideToggle();
+      });
+    </script>
   </body>
 </html>
